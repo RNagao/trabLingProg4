@@ -22,7 +22,7 @@ class PacienteMenor : public Paciente
         //atualiza telefone responsavel
         void setTelefoneResponsavel(string);
         //dados da classe para ser usada na base
-        virtual string getDadosDerivada();
+        virtual string getDadosDerivada() const;
 
     private:
         string nomeResponsavel;

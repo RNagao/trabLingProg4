@@ -37,7 +37,7 @@ void PacienteMenor::setTelefoneResponsavel(string telefoneAtualizado)
     telefoneResponsavel = telefoneResponsavel;
 }
 
-string PacienteMenor::getDadosDerivada()
+string PacienteMenor::getDadosDerivada() const
 {
     string dados;
     dados = "Nome do Responsavel: " + nomeResponsavel + "\nTelefone do Responsavel: " + telefoneResponsavel;

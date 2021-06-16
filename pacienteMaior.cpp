@@ -26,7 +26,7 @@ void PacienteMaior::setProfissao(string profissaoAtualizada)
     profissao = profissaoAtualizada;
 }
 
-string PacienteMaior::getDadosDerivada()
+string PacienteMaior::getDadosDerivada() const
 {
     string dados;
     dados = "Profissao: " + profissao;

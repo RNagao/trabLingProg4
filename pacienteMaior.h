@@ -18,7 +18,7 @@ class PacienteMaior : public Paciente
         //atualiza nome responsavel
         void setProfissao(string);
         //dados da classe para ser usada na base
-        virtual string getDadosDerivada();
+        virtual string getDadosDerivada() const;
 
     private:
         string profissao;

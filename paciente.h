@@ -43,7 +43,7 @@ class Paciente
         //operador comparacao igual
         bool operator==(Paciente&);
         //retorna os dados da classe derivada
-        virtual string getDadosDerivada();
+        virtual string getDadosDerivada() const = 0;
 
     private:
         string nome;
